@@ -1,0 +1,61 @@
+.server1 , .server2 {
+    padding-top: 1%;
+    display: flex;
+    width: 90%;
+    padding-left: 5%;
+    transition: transform 0.2s ease, width 0.2s ease;
+}
+
+.server1:hover , .server2:hover {
+    transform: translateY(-5%);
+    width: 91%;
+}
+
+body
+{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background-image: url('dirt.jpg'); 
+background-repeat: repeat; 
+background-position: center;
+background-size: 25%;
+height: 100vh;
+overflow: hidden;
+}
+
+@media (max-width: 900px) {
+      body {
+        background-size: 50%;
+      }
+      .servers {
+        padding-top: 2%;
+    }
+    }
+
+    @media (max-width: 450px) {
+      body {
+        background-size: 75%;
+      }
+      .servers {
+        padding-top: 5%;
+    }
+    }
+
+.header {
+    text-align: center;
+    width: 100%;
+    height: 2%;
+    padding-top: 2%;
+}
+
+.navbar {
+    width: 100%;
+    height: 4%;
+    text-align: center;
+    font-size: 25px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}

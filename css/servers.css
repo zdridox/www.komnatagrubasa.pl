@@ -1,0 +1,121 @@
+body
+{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background-image: url('dirt.jpg'); 
+background-repeat: repeat; 
+background-position: center;
+background-size: 25%;
+height: 100vh;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    height: 1%;
+    padding-top: 2%;
+}
+
+.nav {
+    text-align: center;
+    width: 100%;
+    height: 1%;
+    padding-top: 1%;
+}
+
+.info {
+    width: 100%;
+    font-size: 25px;  
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.button1 {
+    font-size: 25px;  
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-style: normal; 
+    background-color: rgb(43, 15, 54);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+.main {
+    padding-top:  200px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    body {
+      background-size: 50%;
+    }
+    .info {
+        font-size: 30px;
+    }
+    .img {
+        width: 720px;
+        height: 480px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    body {
+      background-size: 75%;
+    }
+    .info {
+        font-size: 15px;
+        padding-top: 6%;
+    }
+    .img {
+        width: 360px;
+        height: 240px;
+    }
+    .main {
+        padding-top: 230px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .info {
+        font-size: 15px;
+        padding-top: 6%;
+    }
+    .img {
+        width: 360px;
+        height: 240px;
+    }
+    .main {
+        padding-top: 200px;
+    }
+  }
+
+  @media (max-width: 890px) {
+    .info {
+        font-size: 15px;
+        padding-top: 6%;
+    }
+    .img {
+        width: 360px;
+        height: 240px;
+    }
+    .main {
+        padding-top: 250px;
+    }
+  }
+
+  @media (max-width: 220px) {
+    .info {
+        font-size: 15px;
+        padding-top: 6%;
+    }
+    .img {
+        width: 360px;
+        height: 240px;
+    }
+    .main {
+        padding-top: 300px;
+    }
+  }
